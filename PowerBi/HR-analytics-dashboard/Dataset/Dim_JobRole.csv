@@ -1,0 +1,11 @@
+JobRoleKey,JobRole,Department
+1,HR Exec,HR
+2,Recruiter,HR
+3,Developer,IT
+4,Analyst,IT
+5,Accountant,Finance
+6,Financial Analyst,Finance
+7,Sales Exec,Sales
+8,Manager,Sales
+9,Coordinator,Operations
+10,Supervisor,Operations
