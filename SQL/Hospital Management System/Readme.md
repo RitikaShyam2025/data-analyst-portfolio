@@ -1,4 +1,5 @@
 🏥 Hospital Database Management & Analytics System
+
 A comprehensive SQL-based Hospital Management & Analytics System built using MySQL.
 This project includes complete database design, data generation using stored procedures, and 50+ analytical SQL queries covering all major hospital operations.
 
@@ -34,14 +35,15 @@ Portfolio projects
 Academic submissions
 
 🛠️ Technologies Used
-Technology	Purpose
-MySQL	Database engine
-SQL	Querying & analytics
-MySQL Workbench	Modeling & execution
+
+Technology	          Purpose
+MySQL	Database        engine
+SQL	                  Querying & analytics
+MySQL Workbench	      Modeling & execution
 
 
 🗂️ Database Schema
-Your project contains the following tables:
+This project contains the following tables:
 
 departments
 
@@ -91,7 +93,7 @@ One bill → one payment
 One supplier → many medicines
 
 🧪 Data Generation (Stored Procedures)
-Your project includes auto‑data‑generation procedures:
+This project includes auto‑data‑generation procedures:
 
 GeneratePatients() → 2000 patients
 
@@ -114,7 +116,7 @@ GenerateLabTests() → 700 lab tests
 These procedures create realistic, randomized data for analytics.
 
 📊 Analytical SQL Queries (50+)
-Your project includes 50 categorized SQL queries, such as:
+This project includes 50 categorized SQL queries, such as:
 
 🔹 Basic Retrieval
 List all patients, doctors, medicines
@@ -170,7 +172,7 @@ sql
 CREATE DATABASE HospitalDB;
 USE HospitalDB;
 3️⃣ Import SQL files
-Load your schema, inserts, and procedures.
+Load schema, inserts, and procedures.
 
 4️⃣ Run stored procedures
 Example:
@@ -199,7 +201,7 @@ Room occupancy analytics
 👩‍💻 Author
 Ritika  
 SQL Developer | Data Analyst | MySQL Enthusiast
-Sholinganallur, Tamil Nadu, India
+Chennai, Tamil Nadu, India
 
 🎯 Conclusion
 This Hospital Database Management & Analytics System is a complete SQL project demonstrating:
