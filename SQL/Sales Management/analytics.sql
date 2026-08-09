@@ -202,31 +202,165 @@ GROUP BY p.ProductName;
 -- ============================
 
 -- Q41: Stored procedure – GetCustomerOrders
-CALL GetCustomerOrders(1);
+DELIMITER //
+
+CREATE PROCEDURE GetCustomerOrders(IN p_CustomerID INT)
+BEGIN
+    SELECT *
+    FROM Orders
+    WHERE CustomerID = p_CustomerID;
+END //
+DELIMITER ;
 
 -- Q42: Stored procedure – GetProductsByCategory
-CALL GetProductsByCategory(1);
+DELIMITER //
+
+CREATE PROCEDURE GetProductsByCategory(IN p_CategoryID INT)
+BEGIN
+    SELECT *
+    FROM Products
+    WHERE CategoryID = p_CategoryID;
+END //
+
+DELIMITER ;
+
 
 -- Q43: Stored procedure – GetCustomerSales
-CALL GetCustomerSales(1);
+DELIMITER //
+
+CREATE PROCEDURE GetCustomerSales(IN p_CustomerID INT)
+BEGIN
+    SELECT SUM(TotalAmount) AS TotalSales
+    FROM Orders
+    WHERE CustomerID = p_CustomerID;
+END //
+
+DELIMITER ;
+
 
 -- Q44: Stored procedure – GetOrdersBetweenDates
-CALL GetOrdersBetweenDates('2025-01-01','2025-12-31');
+DELIMITER //
+
+CREATE PROCEDURE GetOrdersBetweenDates
+(
+IN StartDate DATE,
+IN EndDate DATE
+)
+BEGIN
+    SELECT *
+    FROM Orders
+    WHERE OrderDate BETWEEN StartDate AND EndDate;
+END //
+
+DELIMITER ;
+
 
 -- Q45: Stored procedure – GetLowStockProducts
-CALL GetLowStockProducts();
+DELIMITER //
+
+CREATE PROCEDURE GetLowStockProducts()
+BEGIN
+    SELECT *
+    FROM Inventory
+    WHERE StockQuantity < ReorderLevel;
+END //
+
+DELIMITER ;
+
 
 -- Q46: Trigger – Update Inventory after order
--- (Defined in triggers.sql)
+DELIMITER //
+
+CREATE TRIGGER trg_UpdateInventory
+AFTER INSERT
+ON OrderDetails
+FOR EACH ROW
+BEGIN
+    UPDATE Inventory
+    SET StockQuantity = StockQuantity - NEW.Quantity
+    WHERE ProductID = NEW.ProductID;
+END //
+
+DELIMITER ;
+
 
 -- Q47: Trigger – Increase Inventory after return
--- (Defined in triggers.sql)
+DELIMITER //
+
+CREATE TRIGGER trg_ReturnInventory
+AFTER INSERT
+ON Returns
+FOR EACH ROW
+BEGIN
+    UPDATE Inventory
+    SET StockQuantity = StockQuantity + 1
+    WHERE ProductID = NEW.ProductID;
+END //
+
+DELIMITER ;
+
 
 -- Q48: Trigger – Prevent negative order amount
--- (Defined in triggers.sql)
+DELIMITER //
+
+CREATE TRIGGER trg_CheckTotalAmount
+BEFORE INSERT
+ON Orders
+FOR EACH ROW
+BEGIN
+    IF NEW.TotalAmount < 0 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Total Amount cannot be negative';
+    END IF;
+END //
+
+DELIMITER ;
+
 
 -- Q49: Trigger – Auto-update LastUpdated in Inventory
--- (Defined in triggers.sql)
+DELIMITER //
+
+CREATE TRIGGER trg_LastUpdated
+BEFORE UPDATE
+ON Inventory
+FOR EACH ROW
+BEGIN
+    SET NEW.LastUpdated = CURDATE();
+END //
+
+DELIMITER ;
+
 
 -- Q50: Trigger – PaymentAudit logging
--- (Defined in triggers.sql)
+CREATE TABLE PaymentAudit
+(
+AuditID INT AUTO_INCREMENT PRIMARY KEY,
+PaymentID INT,
+Amount DECIMAL(10,2),
+PaymentDate DATE,
+CreatedOn TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+DELIMITER //
+
+CREATE TRIGGER trg_PaymentAudit
+AFTER INSERT
+ON Payments
+FOR EACH ROW
+BEGIN
+    INSERT INTO PaymentAudit
+    (
+        PaymentID,
+        Amount,
+        PaymentDate
+    )
+    VALUES
+    (
+        NEW.PaymentID,
+        NEW.Amount,
+        NEW.PaymentDate
+    );
+END //
+
+DELIMITER ;
+
