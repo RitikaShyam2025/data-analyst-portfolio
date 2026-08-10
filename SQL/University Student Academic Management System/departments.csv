@@ -1,0 +1,11 @@
+DepartmentID,DepartmentName,Faculty
+1,Computer Science,Engineering
+2,Information Technology,Engineering
+3,Mechanical Engineering,Engineering
+4,Electrical Engineering,Engineering
+5,Civil Engineering,Engineering
+6,Business Administration,Management
+7,Commerce,Management
+8,English,Arts
+9,Mathematics,Science
+10,Physics,Science

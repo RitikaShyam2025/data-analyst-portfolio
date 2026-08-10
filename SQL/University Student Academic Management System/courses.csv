@@ -1,0 +1,101 @@
+CourseID,CourseCode,CourseName,DepartmentID,ProfessorID,Credits
+1,COM100,Advanced Concepts Computer Science,1,1,3
+2,INF100,Programming Information Technology,2,2,3
+3,MEC100,Analysis Mechanical Engineering,3,3,3
+4,ELE100,Systems Electrical Engineering,4,4,4
+5,CIV100,Fundamentals Civil Engineering,5,5,3
+6,BUS100,Advanced Concepts Business Administration,6,6,3
+7,COM100,Programming Commerce,7,7,3
+8,ENG100,Analysis English,8,8,4
+9,MAT100,Systems Mathematics,9,9,3
+10,PHY100,Fundamentals Physics,10,10,3
+11,COM101,Advanced Concepts Computer Science,1,11,3
+12,INF101,Programming Information Technology,2,12,4
+13,MEC101,Analysis Mechanical Engineering,3,13,3
+14,ELE101,Systems Electrical Engineering,4,14,3
+15,CIV101,Fundamentals Civil Engineering,5,15,3
+16,BUS101,Advanced Concepts Business Administration,6,16,4
+17,COM101,Programming Commerce,7,17,3
+18,ENG101,Analysis English,8,18,3
+19,MAT101,Systems Mathematics,9,19,3
+20,PHY101,Fundamentals Physics,10,20,4
+21,COM102,Advanced Concepts Computer Science,1,21,3
+22,INF102,Programming Information Technology,2,22,3
+23,MEC102,Analysis Mechanical Engineering,3,23,3
+24,ELE102,Systems Electrical Engineering,4,24,4
+25,CIV102,Fundamentals Civil Engineering,5,25,3
+26,BUS102,Advanced Concepts Business Administration,6,26,3
+27,COM102,Programming Commerce,7,27,3
+28,ENG102,Analysis English,8,28,4
+29,MAT102,Systems Mathematics,9,29,3
+30,PHY102,Fundamentals Physics,10,30,3
+31,COM103,Advanced Concepts Computer Science,1,31,3
+32,INF103,Programming Information Technology,2,32,4
+33,MEC103,Analysis Mechanical Engineering,3,33,3
+34,ELE103,Systems Electrical Engineering,4,34,3
+35,CIV103,Fundamentals Civil Engineering,5,35,3
+36,BUS103,Advanced Concepts Business Administration,6,36,4
+37,COM103,Programming Commerce,7,37,3
+38,ENG103,Analysis English,8,38,3
+39,MAT103,Systems Mathematics,9,39,3
+40,PHY103,Fundamentals Physics,10,40,4
+41,COM104,Advanced Concepts Computer Science,1,41,3
+42,INF104,Programming Information Technology,2,42,3
+43,MEC104,Analysis Mechanical Engineering,3,43,3
+44,ELE104,Systems Electrical Engineering,4,44,4
+45,CIV104,Fundamentals Civil Engineering,5,45,3
+46,BUS104,Advanced Concepts Business Administration,6,46,3
+47,COM104,Programming Commerce,7,47,3
+48,ENG104,Analysis English,8,48,4
+49,MAT104,Systems Mathematics,9,49,3
+50,PHY104,Fundamentals Physics,10,50,3
+51,COM105,Advanced Concepts Computer Science,1,51,3
+52,INF105,Programming Information Technology,2,52,4
+53,MEC105,Analysis Mechanical Engineering,3,53,3
+54,ELE105,Systems Electrical Engineering,4,54,3
+55,CIV105,Fundamentals Civil Engineering,5,55,3
+56,BUS105,Advanced Concepts Business Administration,6,56,4
+57,COM105,Programming Commerce,7,57,3
+58,ENG105,Analysis English,8,58,3
+59,MAT105,Systems Mathematics,9,59,3
+60,PHY105,Fundamentals Physics,10,60,4
+61,COM106,Advanced Concepts Computer Science,1,61,3
+62,INF106,Programming Information Technology,2,62,3
+63,MEC106,Analysis Mechanical Engineering,3,63,3
+64,ELE106,Systems Electrical Engineering,4,64,4
+65,CIV106,Fundamentals Civil Engineering,5,65,3
+66,BUS106,Advanced Concepts Business Administration,6,66,3
+67,COM106,Programming Commerce,7,67,3
+68,ENG106,Analysis English,8,68,4
+69,MAT106,Systems Mathematics,9,69,3
+70,PHY106,Fundamentals Physics,10,70,3
+71,COM107,Advanced Concepts Computer Science,1,71,3
+72,INF107,Programming Information Technology,2,72,4
+73,MEC107,Analysis Mechanical Engineering,3,73,3
+74,ELE107,Systems Electrical Engineering,4,74,3
+75,CIV107,Fundamentals Civil Engineering,5,75,3
+76,BUS107,Advanced Concepts Business Administration,6,76,4
+77,COM107,Programming Commerce,7,77,3
+78,ENG107,Analysis English,8,78,3
+79,MAT107,Systems Mathematics,9,79,3
+80,PHY107,Fundamentals Physics,10,80,4
+81,COM108,Advanced Concepts Computer Science,1,1,3
+82,INF108,Programming Information Technology,2,2,3
+83,MEC108,Analysis Mechanical Engineering,3,3,3
+84,ELE108,Systems Electrical Engineering,4,4,4
+85,CIV108,Fundamentals Civil Engineering,5,5,3
+86,BUS108,Advanced Concepts Business Administration,6,6,3
+87,COM108,Programming Commerce,7,7,3
+88,ENG108,Analysis English,8,8,4
+89,MAT108,Systems Mathematics,9,9,3
+90,PHY108,Fundamentals Physics,10,10,3
+91,COM109,Advanced Concepts Computer Science,1,11,3
+92,INF109,Programming Information Technology,2,12,4
+93,MEC109,Analysis Mechanical Engineering,3,13,3
+94,ELE109,Systems Electrical Engineering,4,14,3
+95,CIV109,Fundamentals Civil Engineering,5,15,3
+96,BUS109,Advanced Concepts Business Administration,6,16,4
+97,COM109,Programming Commerce,7,17,3
+98,ENG109,Analysis English,8,18,3
+99,MAT109,Systems Mathematics,9,19,3
+100,PHY109,Fundamentals Physics,10,20,4

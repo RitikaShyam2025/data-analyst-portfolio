@@ -1,0 +1,81 @@
+ScholarshipID,StudentID,ScholarshipType,Amount,AwardYear,Status
+1,6,Sports,15000,2025,Completed
+2,12,Need Based,20000,2026,Active
+3,18,Academic Excellence,25000,2024,Completed
+4,24,Women in STEM,30000,2025,Active
+5,30,Merit,10000,2026,Completed
+6,36,Sports,15000,2024,Active
+7,42,Need Based,20000,2025,Completed
+8,48,Academic Excellence,25000,2026,Active
+9,54,Women in STEM,30000,2024,Completed
+10,60,Merit,10000,2025,Active
+11,66,Sports,15000,2026,Completed
+12,72,Need Based,20000,2024,Active
+13,78,Academic Excellence,25000,2025,Completed
+14,84,Women in STEM,30000,2026,Active
+15,90,Merit,10000,2024,Completed
+16,96,Sports,15000,2025,Active
+17,102,Need Based,20000,2026,Completed
+18,108,Academic Excellence,25000,2024,Active
+19,114,Women in STEM,30000,2025,Completed
+20,120,Merit,10000,2026,Active
+21,126,Sports,15000,2024,Completed
+22,132,Need Based,20000,2025,Active
+23,138,Academic Excellence,25000,2026,Completed
+24,144,Women in STEM,30000,2024,Active
+25,150,Merit,10000,2025,Completed
+26,156,Sports,15000,2026,Active
+27,162,Need Based,20000,2024,Completed
+28,168,Academic Excellence,25000,2025,Active
+29,174,Women in STEM,30000,2026,Completed
+30,180,Merit,10000,2024,Active
+31,186,Sports,15000,2025,Completed
+32,192,Need Based,20000,2026,Active
+33,198,Academic Excellence,25000,2024,Completed
+34,204,Women in STEM,30000,2025,Active
+35,210,Merit,10000,2026,Completed
+36,216,Sports,15000,2024,Active
+37,222,Need Based,20000,2025,Completed
+38,228,Academic Excellence,25000,2026,Active
+39,234,Women in STEM,30000,2024,Completed
+40,240,Merit,10000,2025,Active
+41,246,Sports,15000,2026,Completed
+42,252,Need Based,20000,2024,Active
+43,258,Academic Excellence,25000,2025,Completed
+44,264,Women in STEM,30000,2026,Active
+45,270,Merit,10000,2024,Completed
+46,276,Sports,15000,2025,Active
+47,282,Need Based,20000,2026,Completed
+48,288,Academic Excellence,25000,2024,Active
+49,294,Women in STEM,30000,2025,Completed
+50,300,Merit,10000,2026,Active
+51,306,Sports,15000,2024,Completed
+52,312,Need Based,20000,2025,Active
+53,318,Academic Excellence,25000,2026,Completed
+54,324,Women in STEM,30000,2024,Active
+55,330,Merit,10000,2025,Completed
+56,336,Sports,15000,2026,Active
+57,342,Need Based,20000,2024,Completed
+58,348,Academic Excellence,25000,2025,Active
+59,354,Women in STEM,30000,2026,Completed
+60,360,Merit,10000,2024,Active
+61,366,Sports,15000,2025,Completed
+62,372,Need Based,20000,2026,Active
+63,378,Academic Excellence,25000,2024,Completed
+64,384,Women in STEM,30000,2025,Active
+65,390,Merit,10000,2026,Completed
+66,396,Sports,15000,2024,Active
+67,402,Need Based,20000,2025,Completed
+68,408,Academic Excellence,25000,2026,Active
+69,414,Women in STEM,30000,2024,Completed
+70,420,Merit,10000,2025,Active
+71,426,Sports,15000,2026,Completed
+72,432,Need Based,20000,2024,Active
+73,438,Academic Excellence,25000,2025,Completed
+74,444,Women in STEM,30000,2026,Active
+75,450,Merit,10000,2024,Completed
+76,456,Sports,15000,2025,Active
+77,462,Need Based,20000,2026,Completed
+78,468,Academic Excellence,25000,2024,Active
+79,474,Women in STEM,30000,2025,Completed
+80,480,Merit,10000,2026,Active

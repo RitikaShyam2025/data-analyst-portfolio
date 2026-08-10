@@ -1,0 +1,81 @@
+ProfessorID,ProfessorName,Email,DepartmentID,Specialization,Designation
+1,Dr. Vikram Kumar,professor001@university.edu,1,Data Science,Associate Professor
+2,Dr. Meera Reddy,professor002@university.edu,2,Networks,Professor
+3,Dr. Karthik Singh,professor003@university.edu,3,AI & ML,Assistant Professor
+4,Dr. Nisha Menon,professor004@university.edu,4,Thermodynamics,Associate Professor
+5,Dr. Aditya Pillai,professor005@university.edu,5,Power Systems,Professor
+6,Dr. Sneha Joshi,professor006@university.edu,6,Structural Engineering,Assistant Professor
+7,Dr. Rohan Mishra,professor007@university.edu,7,Finance,Associate Professor
+8,Dr. Ishita Patel,professor008@university.edu,8,Accounting,Professor
+9,Dr. Varun Iyer,professor009@university.edu,9,Literature,Assistant Professor
+10,Dr. Pooja Nair,professor010@university.edu,10,Applied Mathematics,Associate Professor
+11,Dr. Sanjay Das,professor011@university.edu,1,Data Science,Professor
+12,Dr. Keerthi Rao,professor012@university.edu,2,Networks,Assistant Professor
+13,Dr. Naveen Gupta,professor013@university.edu,3,AI & ML,Associate Professor
+14,Dr. Divya Verma,professor014@university.edu,4,Thermodynamics,Professor
+15,Dr. Aarav Sharma,professor015@university.edu,5,Power Systems,Assistant Professor
+16,Dr. Diya Kumar,professor016@university.edu,6,Structural Engineering,Associate Professor
+17,Dr. Arjun Reddy,professor017@university.edu,7,Finance,Professor
+18,Dr. Ananya Singh,professor018@university.edu,8,Accounting,Assistant Professor
+19,Dr. Rahul Menon,professor019@university.edu,9,Literature,Associate Professor
+20,Dr. Priya Pillai,professor020@university.edu,10,Applied Mathematics,Professor
+21,Dr. Vikram Joshi,professor021@university.edu,1,Data Science,Assistant Professor
+22,Dr. Meera Mishra,professor022@university.edu,2,Networks,Associate Professor
+23,Dr. Karthik Patel,professor023@university.edu,3,AI & ML,Professor
+24,Dr. Nisha Iyer,professor024@university.edu,4,Thermodynamics,Assistant Professor
+25,Dr. Aditya Nair,professor025@university.edu,5,Power Systems,Associate Professor
+26,Dr. Sneha Das,professor026@university.edu,6,Structural Engineering,Professor
+27,Dr. Rohan Rao,professor027@university.edu,7,Finance,Assistant Professor
+28,Dr. Ishita Gupta,professor028@university.edu,8,Accounting,Associate Professor
+29,Dr. Varun Verma,professor029@university.edu,9,Literature,Professor
+30,Dr. Pooja Sharma,professor030@university.edu,10,Applied Mathematics,Assistant Professor
+31,Dr. Sanjay Kumar,professor031@university.edu,1,Data Science,Associate Professor
+32,Dr. Keerthi Reddy,professor032@university.edu,2,Networks,Professor
+33,Dr. Naveen Singh,professor033@university.edu,3,AI & ML,Assistant Professor
+34,Dr. Divya Menon,professor034@university.edu,4,Thermodynamics,Associate Professor
+35,Dr. Aarav Pillai,professor035@university.edu,5,Power Systems,Professor
+36,Dr. Diya Joshi,professor036@university.edu,6,Structural Engineering,Assistant Professor
+37,Dr. Arjun Mishra,professor037@university.edu,7,Finance,Associate Professor
+38,Dr. Ananya Patel,professor038@university.edu,8,Accounting,Professor
+39,Dr. Rahul Iyer,professor039@university.edu,9,Literature,Assistant Professor
+40,Dr. Priya Nair,professor040@university.edu,10,Applied Mathematics,Associate Professor
+41,Dr. Vikram Das,professor041@university.edu,1,Data Science,Professor
+42,Dr. Meera Rao,professor042@university.edu,2,Networks,Assistant Professor
+43,Dr. Karthik Gupta,professor043@university.edu,3,AI & ML,Associate Professor
+44,Dr. Nisha Verma,professor044@university.edu,4,Thermodynamics,Professor
+45,Dr. Aditya Sharma,professor045@university.edu,5,Power Systems,Assistant Professor
+46,Dr. Sneha Kumar,professor046@university.edu,6,Structural Engineering,Associate Professor
+47,Dr. Rohan Reddy,professor047@university.edu,7,Finance,Professor
+48,Dr. Ishita Singh,professor048@university.edu,8,Accounting,Assistant Professor
+49,Dr. Varun Menon,professor049@university.edu,9,Literature,Associate Professor
+50,Dr. Pooja Pillai,professor050@university.edu,10,Applied Mathematics,Professor
+51,Dr. Sanjay Joshi,professor051@university.edu,1,Data Science,Assistant Professor
+52,Dr. Keerthi Mishra,professor052@university.edu,2,Networks,Associate Professor
+53,Dr. Naveen Patel,professor053@university.edu,3,AI & ML,Professor
+54,Dr. Divya Iyer,professor054@university.edu,4,Thermodynamics,Assistant Professor
+55,Dr. Aarav Nair,professor055@university.edu,5,Power Systems,Associate Professor
+56,Dr. Diya Das,professor056@university.edu,6,Structural Engineering,Professor
+57,Dr. Arjun Rao,professor057@university.edu,7,Finance,Assistant Professor
+58,Dr. Ananya Gupta,professor058@university.edu,8,Accounting,Associate Professor
+59,Dr. Rahul Verma,professor059@university.edu,9,Literature,Professor
+60,Dr. Priya Sharma,professor060@university.edu,10,Applied Mathematics,Assistant Professor
+61,Dr. Vikram Kumar,professor061@university.edu,1,Data Science,Associate Professor
+62,Dr. Meera Reddy,professor062@university.edu,2,Networks,Professor
+63,Dr. Karthik Singh,professor063@university.edu,3,AI & ML,Assistant Professor
+64,Dr. Nisha Menon,professor064@university.edu,4,Thermodynamics,Associate Professor
+65,Dr. Aditya Pillai,professor065@university.edu,5,Power Systems,Professor
+66,Dr. Sneha Joshi,professor066@university.edu,6,Structural Engineering,Assistant Professor
+67,Dr. Rohan Mishra,professor067@university.edu,7,Finance,Associate Professor
+68,Dr. Ishita Patel,professor068@university.edu,8,Accounting,Professor
+69,Dr. Varun Iyer,professor069@university.edu,9,Literature,Assistant Professor
+70,Dr. Pooja Nair,professor070@university.edu,10,Applied Mathematics,Associate Professor
+71,Dr. Sanjay Das,professor071@university.edu,1,Data Science,Professor
+72,Dr. Keerthi Rao,professor072@university.edu,2,Networks,Assistant Professor
+73,Dr. Naveen Gupta,professor073@university.edu,3,AI & ML,Associate Professor
+74,Dr. Divya Verma,professor074@university.edu,4,Thermodynamics,Professor
+75,Dr. Aarav Sharma,professor075@university.edu,5,Power Systems,Assistant Professor
+76,Dr. Diya Kumar,professor076@university.edu,6,Structural Engineering,Associate Professor
+77,Dr. Arjun Reddy,professor077@university.edu,7,Finance,Professor
+78,Dr. Ananya Singh,professor078@university.edu,8,Accounting,Assistant Professor
+79,Dr. Rahul Menon,professor079@university.edu,9,Literature,Associate Professor
+80,Dr. Priya Pillai,professor080@university.edu,10,Applied Mathematics,Professor
