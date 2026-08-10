@@ -1,22 +1,22 @@
-🎓 University Student Academic Management System (USAMS)
-A complete SQL‑based University Academic & Analytics System built using MySQL.
+University Student Academic Management System (USAMS)
+A complete SQL‑based University Academic Management & Analytics System built using MySQL.
 
-This project includes full database design, 10 CSV datasets (3,070 records), stored procedures, triggers, and 50 analytical SQL queries covering all major academic operations.
+This project includes full database design, 10 CSV datasets (3,070 records), 50 SQL queries (Basic → Intermediate → Advanced), views, stored procedures, and triggers — covering all major university academic operations.
 
 📌 Project Overview
-This project simulates a real‑world university academic environment with modules for:
+The University Student Academic Management System (USAMS) simulates a real university environment with modules for:
 
-Student Management
+Student Information Management
 
-Professor & Department Management
+Department & Professor Management
 
-Course Catalog
+Course Catalog & Academic Structure
 
-Enrollments & Academic Records
+Enrollments & Academic Tracking
 
-Exams & Results
+Exams & Exam Results
 
-Attendance Tracking
+Attendance Monitoring
 
 Scholarships & Financial Aid
 
@@ -24,24 +24,14 @@ Fee Management
 
 Academic Analytics & Reporting
 
-The database is populated with 3,070 realistic records across 10 CSV files, making it ideal for:
-
-SQL practice
-
-Data analytics learning
-
-Portfolio projects
-
-Academic submissions
-
-End‑to‑end database design demonstrations
+The database is fully normalized, uses primary & foreign keys for integrity, and supports complex analytical queries for academic insights.
 
 🛠️ Technologies Used
 Technology	Purpose
 MySQL	Database engine
 SQL	Querying, analytics, procedures, triggers
 MySQL Workbench	Modeling & execution
-CSV datasets	Bulk data import for realistic academic records
+CSV datasets	Bulk import of academic records
 
 
 🗂️ Dataset Overview (10 CSV Files)
@@ -60,7 +50,7 @@ Total	3,070 records
 
 
 📥 Recommended Import Order
-To maintain foreign‑key consistency, import CSVs in this order:
+To maintain foreign‑key consistency:
 
 departments
 
@@ -83,140 +73,144 @@ scholarships
 fees
 
 🔗 Entity Relationship Highlights
-Department‑based relationships
-departments.DepartmentID → students.DepartmentID
+Department Relationships
+departments → students
 
-departments.DepartmentID → professors.DepartmentID
+departments → professors
 
-departments.DepartmentID → courses.DepartmentID
+departments → courses
 
-Course & Teaching relationships
-professors.ProfessorID → courses.ProfessorID
+Course & Teaching
+professors → courses
 
 Student Academic Flow
-students.StudentID → enrollments.StudentID
+students → enrollments
 
-courses.CourseID → enrollments.CourseID
+courses → enrollments
 
-courses.CourseID → exams.CourseID
+courses → exams
 
-exams.ExamID → exam_results.ExamID
+exams → exam_results
 
-students.StudentID → exam_results.StudentID
+students → exam_results
 
-students.StudentID → attendance.StudentID
+students → attendance
 
-courses.CourseID → attendance.CourseID
+courses → attendance
 
-Financial & Scholarship relationships
-students.StudentID → scholarships.StudentID
+Financial & Aid
+students → scholarships
 
-students.StudentID → fees.StudentID
+students → fees
 
-🧩 Database Modules
-1. Academic Structure
-Departments
+🎯 Project Objective
+“The main objective of this project is to design and implement a University Student Academic Management System database using MySQL.
+The system efficiently manages student records, departments, professors, courses, enrollments, examinations, results, attendance, scholarships, and fee records — ensuring data integrity, reducing redundancy, and enabling powerful academic analytics.”
 
-Professors
+📘 SQL Coverage (Q1–Q50)
+BASIC SQL (Q1–Q20)
+Covers:
 
-Courses
+Student, professor, department retrieval
 
-2. Student Lifecycle
-Student registration
+Filtering (CGPA, gender, city, admission year)
 
-Course enrollments
+Sorting & limiting
 
-Attendance tracking
+Aggregations (COUNT, SUM, AVG, MAX, MIN)
 
-Exam participation
+Fee & scholarship queries
 
-Result generation
+Exam result filtering
 
-3. Financial & Aid
-Scholarships
+INTERMEDIATE SQL (Q21–Q40)
+Includes:
 
-Fee payments
+Department‑wise student/professor/course counts
 
-4. Analytics
-Academic performance
+Average CGPA by department
 
-Department‑wise metrics
+Joins across Students, Departments, Professors, Courses
 
-Course popularity
+Enrollment analytics
 
-Attendance trends
+Scholarship & fee summaries
 
-Scholarship distribution
+Exam performance metrics
 
-🔧 Stored Procedures (Q41–Q45)
-Includes procedures for:
+Attendance filtering
 
-Retrieving student academic history
+Subqueries (CGPA > overall average)
 
-Fetching courses offered by a department
+ADVANCED SQL (Q41–Q50)
+Includes:
 
-Calculating student GPA / total marks
+Window functions (RANK, DENSE_RANK)
 
-Listing exams within a date range
+CTEs for ranking & department averages
 
-Identifying students with low attendance
+Course enrollment ranking
 
-🔥 Triggers (Q46–Q50)
-Includes triggers for:
+Student performance classification
 
-Auto‑updating attendance percentage
+Academic performance aggregation
 
-Preventing duplicate exam entries
+Views (StudentAcademicSummary)
 
-Validating fee payments
+Stored procedure (GetStudentPerformance)
 
-Logging exam result updates
+Trigger (prevent invalid fee insert)
 
-Scholarship eligibility checks
+Overall performance score & ranking
 
-📊 Analytical SQL Queries (Q1–Q50)
-Basic Retrieval
-Students, professors, courses, departments
+🔧 Stored Procedures
+GetStudentPerformance
+Returns:
 
-Exam schedules, attendance records
+Student details
 
-Joins
-Student–department
+Department
 
-Professor–course
+Courses enrolled
 
-Course–enrollment
+Average exam marks
 
-Exam–result
+Average attendance
 
-Aggregations
-Department‑wise student count
+🔥 Triggers
+BeforeFeeInsert
+Prevents inserting fee records with amount ≤ 0.
 
-Course enrollment statistics
+🧩 Views
+StudentAcademicSummary
+Summarizes:
 
-Exam performance summaries
+Student details
 
-Attendance averages
+Department
 
-Subqueries
-Students not enrolled in any course
+CGPA
 
-Courses with no exams
+Average marks
 
-Students without scholarships
+Average attendance
 
-Window Functions
-Ranking students by GPA
+📊 Analytical Insights You Can Generate
+Top students by CGPA
 
-Ranking courses by enrollment count
+Department‑wise academic strength
 
-CTEs
-Department‑wise course distribution
+Course enrollment trends
 
-Semester‑wise academic performance
+Exam performance distribution
 
-Stored Procedure Execution
-CALL statements for Q41–Q45
+Attendance‑based risk alerts
+
+Scholarship allocation patterns
+
+Fee payment status analysis
+
+Overall student performance ranking
 
 📁 Recommended Folder Structure
 Code
@@ -237,8 +231,6 @@ UniversityAcademicDB/
 │     ├── attendance.csv
 │     ├── scholarships.csv
 │     └── fees.csv
-
-
 🚀 How to Run the Project
 1️⃣ Install MySQL & MySQL Workbench
 2️⃣ Create the database
@@ -253,23 +245,6 @@ Creates all tables with foreign keys.
 
 5️⃣ Run analytics.sql
 Generates academic insights.
-
-📈 Sample Insights You Can Generate
-Top‑performing students
-
-Most enrolled courses
-
-Department with highest pass percentage
-
-Students with perfect attendance
-
-Scholarship distribution by department
-
-Fee payment trends
-
-Professor teaching load
-
-Course difficulty analysis (based on exam results)
 
 👩‍💻 Author
 Ritika  
